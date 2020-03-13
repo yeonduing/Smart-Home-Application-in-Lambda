@@ -1,0 +1,10 @@
+[
+    {
+        "id": "window",
+        "onOff": false
+    },
+    {
+        "id": "window2",
+        "onOff": true
+    }
+]

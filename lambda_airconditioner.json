@@ -1,0 +1,16 @@
+[
+    {
+        "id": "airconditioner",
+        "onOff": true,
+        "mode": 1,
+        "move": true,
+        "temp": 22
+    },
+    {
+        "id": "airconditioner2",
+        "onOff": true,
+        "mode": 2,
+        "move": false,
+        "temp": 22
+    }
+]

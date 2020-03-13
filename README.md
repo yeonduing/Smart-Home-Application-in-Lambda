@@ -24,14 +24,14 @@ use_math : true
 가정에 있는 가전제품이 원격으로 조정되는 상황에 대해 가정하여 각 가전 하나를 람다 함수로 나타내고 변화가 있을 때 디비의 데이터가 변하도록 설정하였다. 데이터베이스와 Lambda, S3를 연동하여 S3에 새로운 데이터를 입력하였을 때 Lambda에 의해 특정 동작을 하여 데이터베이스의 자료가 변경된다.
 여기서 데이터베이스는 DynamoDB를 활용하였다.
 
-![project design](/assets/images/AWS/project-module.png )
+![project design](/images/project-module.png )
 <div style="text-align: center">fig. 1 프로젝트 관계도</div>  
 
 <br> 
 
 기본 Application이란 모듈이 있고 각 모듈은 해당 모듈을 상속받아 구성된다. 특히 Speaker와 TV의 경우 작동 방식이 매우 유사하여 확장하여 활용하였다.
 
-![system model](/assets/images/AWS/project-archi.png )
+![system model](/images/AWS/project-archi.png )
 <div style="text-align: center">fig. 2 프로젝트 설계도 </div>
 
 ## DB Design
@@ -96,16 +96,16 @@ temp | integer | 희망 온도를 저장한다.
 ## Testing
 
 ### Lambda Function에 S3 연동
-![lambda linking](/assets/images/AWS/lambda-linking.png )
+![lambda linking](/images/AWS/lambda-linking.png )
 
 ### Lambda Function, S3, DynamoDB
-![module check](/assets/images/AWS/check.png )
+![module check](/images/AWS/check.png )
 
 ### 초기 DB 테이블
-![first db table](/assets/images/AWS/first-db.png )
+![first db table](/images/AWS/first-db.png )
 
 ### S3에 json file upload
-![s3 upload](/assets/images/AWS/s3-upload.png )
+![s3 upload](/images/AWS/s3-upload.png )
 
 ### 변경된 DB 테이블
-![updated db](/assets/images/AWS/updated-db.png )
+![updated db](/images/AWS/updated-db.png )

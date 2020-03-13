@@ -1,0 +1,12 @@
+[
+    {
+        "id": "lamp",
+        "onOff": true,
+        "mode": 1
+    },
+    {
+        "id": "lamp2",
+        "onOff": true,
+        "mode": 2
+    }
+]
