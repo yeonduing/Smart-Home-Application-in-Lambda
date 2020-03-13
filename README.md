@@ -31,7 +31,7 @@ use_math : true
 
 기본 Application이란 모듈이 있고 각 모듈은 해당 모듈을 상속받아 구성된다. 특히 Speaker와 TV의 경우 작동 방식이 매우 유사하여 확장하여 활용하였다.
 
-![system model](/images/AWS/project-archi.png )
+![system model](/images/project-archi.png )
 <div style="text-align: center">fig. 2 프로젝트 설계도 </div>
 
 ## DB Design
@@ -96,16 +96,16 @@ temp | integer | 희망 온도를 저장한다.
 ## Testing
 
 ### Lambda Function에 S3 연동
-![lambda linking](/images/AWS/lambda-linking.png )
+![lambda linking](/images/lambda-linking.png )
 
 ### Lambda Function, S3, DynamoDB
-![module check](/images/AWS/check.png )
+![module check](/images/check.png )
 
 ### 초기 DB 테이블
-![first db table](/images/AWS/first-db.png )
+![first db table](/images/first-db.png )
 
 ### S3에 json file upload
-![s3 upload](/images/AWS/s3-upload.png )
+![s3 upload](/images/s3-upload.png )
 
 ### 변경된 DB 테이블
-![updated db](/images/AWS/updated-db.png )
+![updated db](/images/updated-db.png )
